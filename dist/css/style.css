@@ -1,0 +1,502 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.register_div button{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  padding: 2vh 1vh;
+  border-radius: 50vh;
+  height: 7vh;
+  width: 13vh;
+  font-size: 3vh;
+  border: 0.1vh solid black;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  right: 5vh;
+  top: 5vh;
+}
+.registration{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+.registration input:not(.sub, .close_btn){
+  width: 40vh;
+  height: 4vh;
+  border: 0.1vh solid blue;
+  border-radius: 10vh;
+  padding-left: 2vh;
+}
+.registration label{
+  font-family: 'Koulen', cursive;
+  font-size: 2.5vh;
+}
+.log_in_nav{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+.log_in_nav input:not(.sub, .close_btn){
+  width: 40vh;
+  height: 4vh;
+  border: 0.1vh solid blue;
+  border-radius: 10vh;
+  padding-left: 2vh;
+}
+.log_in_nav label{
+  font-family: 'Koulen', cursive;
+  font-size: 2.5vh;
+}
+.Profile{
+  z-index: 3;
+  position: absolute;
+}
+.Profile{
+  top: 5vh;
+  right: 5vh;
+  background-color: white;
+  border-radius: 50vh;
+  width: 9.5vh;
+  height: 9.4vh;
+}
+.profile_pic{
+  height: 9.7vh;
+  width: 9.8vh;
+  cursor: pointer;
+}
+.sub{
+  width: 20vh;
+  padding: 1vh 0;
+  border: 0.1vh solid blue;
+  border-radius: 10vh;
+  cursor: pointer;
+  margin-bottom: 1vh;
+  transition: 0.3s;
+}
+.sub:hover{
+  background-color: blue;
+  color: white;
+  transition: 0.3s;
+}
+.close_btn{
+  width: 20vh;
+  padding: 1vh 0;
+  border-radius: 10vh;
+  cursor: pointer;
+  margin-bottom: 1vh;
+  border: 0.1vh solid red;
+  transition: 0.3s;
+}
+.close_btn:hover{
+  background-color: red;
+  color: white;
+  transition: 0.3;
+}
+.Log-in{
+  width: 20vh;
+  padding: 1vh 0;
+  border: 0.1vh solid blue;
+  border-radius: 10vh;
+  cursor: pointer;
+  margin-bottom: 1vh;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+.head img{
+  height: 20vh;
+  width: 100%;
+  filter: brightness(70%);
+  object-fit: cover;
+  margin-bottom: -1vh;
+}
+.search{
+  width: 70vh;
+  position: absolute;
+  top: 10vh;
+  height: 5vh;
+  border-radius: 1vh;
+  padding-left: 3vh;
+  border: 0.2vh solid black;
+}
+
+
+
+.man_and_woman{
+  background-color: white;
+  text-align: center;
+}
+.mans_top{
+  height: 50vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+.mans_top img{
+  height: 50vh;
+  width: 40vh;
+  border-radius: 3vh;
+  border: 0.5vh solid black;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.mans_top img:hover{
+  height: 52vh;
+  width: 42vh;
+  transition: 0.2s;
+}
+.man_and_woman h2{
+  font-size: 10vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: 'Koulen', cursive;
+}
+.buy_section{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+.buy_sec_back{
+  top: 25vh;
+  left: 7vh;
+  position: absolute;
+  height: 8vh;
+  width: 8vh;
+  color: white;
+  border-radius: 50vh;
+  background-color: white;
+  border: 0vh solid white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.buy_sec_back:hover{
+  top: 24vh;
+  left: 6vh;
+  height: 10vh;
+  width: 10vh;
+  color: white;
+  border-radius: 50vh;
+  background-color: white;
+  border: 0.5vh solid black;
+  transition: 0.3s;
+}
+.buy_div{
+  width: 100vh;
+  height: 50vh;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5vh;
+  height: auto;
+}
+.buy_div p{
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 3.5vh;
+  font-family: 'Koulen', cursive;
+}
+.buy_img{
+  width: 70vh;
+  height: 65vh;
+  border-radius: 5vh;
+}
+.buy_nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.buy_nav button{
+  height: 6vh;
+  width: 20vh;
+  font-size: 2vh;
+  margin-right: 1vh;
+  display: inline-block;
+  color: #ffff;
+  padding: 1.5vh 5vh;
+  background-color: #e67e22;
+  border: 0.1vh solid #e67e22;
+  border-radius: 200px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.last_sec{
+  margin-top: 30vh;
+}
+.last_sec_title h1{
+  font-family: 'Lobster', cursive;
+  font-size: 7vh;
+  display: flex;
+  justify-content: center;
+}
+.last_sec_div img{
+  width: 100%;
+  margin-top: 5vh;
+}
+.loading{
+  position: absolute;
+  width: 10vh;
+  top: 40vh;
+  right: 50%;
+  height: 10vh;
+  border-radius: 50vh;
+  position: fixed;
+}
+.profile_menu{
+  z-index: 4;
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  left: 45%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+.profile_menu input:not(.name_change){
+  width: 20vh;
+  padding: 1vh 0;
+  border: 0.1vh solid blue;
+  border-radius: 10vh;
+  cursor: pointer;
+  margin-bottom: 1vh;
+  transition: 0.3s;
+}
+.name_change{
+  width: 40vh;
+  height: 4vh;
+  border: 0.1vh solid blue;
+  border-radius: 10vh;
+  padding-left: 2vh;
+}
+.profile_menu label, .profile_menu p{
+  font-family: 'Koulen', cursive;
+  font-size: 2.5vh;
+}
+.log_out_btn:hover, .name_change_btn:hover{
+  background-color: blue;
+  color: white;
+  transition: 0.3s;
+}
+.searchResD p{
+  display: flex;
+  justify-content: center;
+  font-size: 5vh;
+  font-family: 'Koulen', cursive;
+}
+.searchResIMGS{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+.searchResIMG{
+  height: 50vh;
+  width: 40vh;
+  margin-top: 10vh;
+  border-radius: 3vh;
+  border: 0.5vh solid black;
+  transition: 1s;
+  cursor: pointer;
+}
+.after_buy{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Koulen', cursive;
+}
+.shopping_cart_nav{
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.shopping_cart_img{
+  background-color: white;
+  border-radius: 25%;
+  margin-top: 6vh;
+  margin-left:6vh;
+  cursor: pointer;
+  height: 7vh;
+  transition: 0.2s;
+}
+.shopping_cart_img:hover{
+  margin-top: 5.5vh;
+  margin-left: 5.5vh;
+  height: 8vh;
+  transition: 0.2s;
+}
+.cart_sec_item{
+  background-color: rgb(223, 223, 223);
+  height: 25vh;
+  width: 70%;
+  border-radius: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  margin-left: 2vh;
+}
+.cart_sec_item img{
+  height: 20vh;
+  border-radius: 25%;
+}
+.cart_sec_item p{
+  text-align: center;
+  background-color: white;
+  width: 100vh;
+  padding: 1vh;
+  border-radius: 5vh;
+}
+.cart_sec_buy{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f77f16;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  position: absolute;
+  right: 10vh;
+  top: 30vh;
+  position: fixed;
+}
+.cart_sec_buy button{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(32, 32, 32, 0.527);
+  color: white;
+  padding: 2vh 1vh;
+  border-radius: 50vh;
+  height: 7vh;
+  width: 13vh;
+  font-size: 3vh;
+  border: 0.1vh solid rgb(19, 19, 19);
+  cursor: pointer;
+}
+.fixedpo{
+  position: fixed;
+  z-index: 10;
+  top: 30vh;
+}
+.succ_buy{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.succ_buy h1 img{
+  height: 8vh;
+}
+.succ_buy h1{
+  display: flex;
+  align-items: center;
+  font-size: 4vh;
+  color: green;
+  height: 10vh;
+}
+.index_img{
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 100000;
+  color: white;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+/* FOR ANDROID / IOS */
+@media (max-width: 600px) {
+  .mans_top{
+    height: 10%;
+  }
+  .mans_top img:hover{
+    width: 100%;
+    height: 40vh;
+  }
+  .mans_top img{
+    width: 100%;
+    height: 40vh;
+  }
+  .img_more{
+    display: none;
+  }
+  .search{
+    width: 15vh;
+  }
+  .profile_menu{
+    left: 30%;
+  }
+  .searchResIMGS{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
+  }
+  .buy_section{
+    display: block;
+  }
+  .buy_img{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    margin: 15vh 0 10vh 0
+  }
+  .buy_div{
+    width: 100%;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  .cart_sec_buy{
+    height: 20vh;
+    top: 80vh;
+    left: 0;
+    width: 95%;
+  }
+  .cart_sec_item{
+    width: 95%;
+    left: 0;
+    border-radius: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+.no_visible{
+  display: none;
+}
